@@ -13,7 +13,7 @@ public class Application {
 	public static void main(String[] args) {
 		       ApplicationContext context = SpringApplication.run(Application.class, args);
 			   BinarySearch search = context.getBean(BinarySearch.class);
-		System.out.print(search.logic());
+		System.out.println(search.logic());
 
 	}
 
